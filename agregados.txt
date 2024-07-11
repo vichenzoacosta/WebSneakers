@@ -1,0 +1,15 @@
+Cosas a agregar:
+1)formulario
+2)card de productos con información
+3)footer
+4)mejorar las letras y tamaños
+
+
+
+
+
+RESOLUCION A PARTIR DE 350
+
+cambiar la cantidad de imágenes en el carrusel de fotos
+flew-wrap: wrap
+
