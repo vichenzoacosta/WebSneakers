@@ -33,30 +33,127 @@
       </div>
     </header>
     <main>
-      <section id="inicio">
-        <h2>Bienvenidos a HELLIS SNEAKERS</h2>
-        <div>
-          <p>
-            Somos una pagina dedica a la venta de zapatillas exclusivas hace mas
-            de 5 años. Trabajamos marcas conocidas como Nike, Adidas, Yeezy,
-            jordan.
-          </p>
-        </div>
-      </section>
       <div id="destacadas">
+        <h2>DESTACADOS</h2>
         <section class="carrusel">
-          
-          <img src="../img/kaws.webp" alt="airmag" />
-          <img src="../img/dunkTravis.webp" alt="dunkTravis" />
-          <img src="../img/jordan4sb.webp" alt="jordan4sb" />
-          <img src="/img/jordanOffwhite.webp" alt="jordanOffwhite" />
-          <img src="/img/shopping.webp" alt="jbalvin" />
-          <img src="/img/travis.webp" alt="jordantravis" />
+          <img class="imgcarrusel" src="../img/kaws.webp" alt="airmag" />
+          <img
+            class="imgcarrusel"
+            src="../img/dunkTravis.webp"
+            alt="dunkTravis"
+          />
+          <img
+            class="imgcarrusel"
+            src="../img/jordan4sb.webp"
+            alt="jordan4sb"
+          />
+          <img
+            class="imgcarrusel"
+            src="/img/jordanOffwhite.webp"
+            alt="jordanOffwhite"
+          />
+          <img class="imgcarrusel" src="/img/shopping.webp" alt="jbalvin" />
+          <img class="imgcarrusel" src="/img/travis.webp" alt="jordantravis" />
         </section>
       </div>
       <div>
+        <div>
+          <section >
+            <h2>Productos</h2>
+            <div class="divCards">
+              <div class="card" style="width: 18rem">
+                <img
+                  class="imgCards"
+                  src="/img/zapatillas(cards).webp"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">CALZADO</h5>
+                  <p class="card-text"></p>
+                  <a href="./zapatillas.html" class="btn-btn-primary">Ver Más</a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem">
+                <img
+                  class="imgCards"
+                  src="/img/ropa.jpeg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">INDUMENTARIA</h5>
+                  <p class="card-text"></p>
+                  <a href="./indumentaria.html" class="btn-btn-primary">Ver Más</a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem">
+                <img
+                  class="imgCards"
+                  src="/img/accesorios.jpeg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">ACCESORIOS</h5>
+                  <p class="card-text"></p>
+                  <a href="./accesorios.html" class="btn-btn-primary">Ver Más</a>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem">
+                <img
+                  class="imgCards"
+                  src="/img//tecnologia.jpeg"
+                  class="card-img-top"
+                  alt="..."
+                />
+                <div class="card-body">
+                  <h5 class="card-title">TECNOLOGIA</h5>
+                  <p class="card-text"></p>
+                  <a href="./tecnologia.html" class="btn-btn-primary">Ver Más</a>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
         <section>
-          <h2></h2>
+          <h2>Consultas</h2>
+          <div>
+            <form>
+              <label for="nombre">Nombre:</label>
+              <input type="text" name="nombre" />
+
+              <label for="apellido">Apellido:</label>
+              <input type="text" name="apellido" />
+
+              <label for="email">Email:</label>
+              <input type="email" name="email" />
+
+              <label for="telefono">telefono:</label>
+              <input type="number" name="telefono" />
+
+              <label for="message">Mensaje:</label>
+              <textarea name="message"></textarea>
+
+              <label for="talle">Elega su Talle:</label>
+              <select name="Talles" id="talle">
+                <option value="6us">6 us</option>
+                <option value="6.5us">6.5 us</option>
+                <option value="7us">7 us</option>
+                <option value="7.5us">7.5 us</option>
+                <option value="8us">8 us</option>
+                <option value="8.5us">8.5 us</option>
+                <option value="9us">9 us</option>
+                <option value="9.5us">9.5 us</option>
+                <option value="10us">10 us</option>
+                <option value="10.5us">10.5 us</option>
+              </select>
+              <div class="button-container">
+                <button type="submit">Enviar</button>
+                <button class="button-delete" type="reset">Borrar</button>
+              </div>
+            </form>
+          </div>
         </section>
       </div>
     </main>
