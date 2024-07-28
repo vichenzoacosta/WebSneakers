@@ -82,7 +82,10 @@ section div p{
 }
 
 
-
+.presentacion{
+    color: white;
+    font-size: 25px;
+}
 /*carrusel*/
 div section.carrusel{   
     display: flex;
