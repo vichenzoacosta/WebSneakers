@@ -82,9 +82,11 @@ section div p{
 }
 
 
-.presentacion{
+.presentacion {
     color: white;
     font-size: 25px;
+    padding: 25px;
+    text-align: center;
 }
 /*carrusel*/
 div section.carrusel{   
@@ -159,6 +161,29 @@ section div form label{
 
 section div form input{
     padding: 2px;
+    width: 20%;
+}
+section div form textarea{
+    width: 20%;
+}
+
+.button-container{
+    padding: 15px;
+}
+
+.button-delete{
+    margin-left: 10px;
 }
 
 
+/*footer*/
+
+footer div{
+    display: flex   ;
+}
+footer div h3{
+    color: white
+}
+footer div i{
+    color: white
+}
