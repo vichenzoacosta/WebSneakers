@@ -178,12 +178,19 @@ section div form textarea{
 
 /*footer*/
 
-footer div{
-    display: flex   ;
+footer div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 footer div h3{
     color: white
 }
 footer div i{
     color: white
+}
+
+footer div div a{
+    padding: 5px;
 }
